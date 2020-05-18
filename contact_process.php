@@ -1,10 +1,10 @@
 <?php
 
-    $to = "fatonnavdiu@gmail.com";
+    $to = "info@dublasreno.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $headers = "From: $from";
-    $subject = "You have a message from your Architectura.";
+    $subject = "You have a message from Dublas Renovation.";
 
     $fields = array();
     $fields{"name"} = "name";
